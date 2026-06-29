@@ -1,0 +1,46 @@
+# Core Backend
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy>=2.0.0
+aiosqlite==0.19.0
+
+# API & Utilities
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv==1.0.0
+
+# HuggingFace & Model Download
+huggingface-hub==0.20.3
+requests==2.31.0
+tqdm==4.66.1
+aiohttp==3.9.1
+
+# System Monitoring
+psutil==5.9.8
+gputil==1.4.0
+
+# Engines (Optional - install as needed)
+# llama-cpp-python  # GGUF - requires build
+# transformers==4.37.2  # SafeTensors
+# accelerate==0.26.1  # GPU acceleration for transformers
+# auto-gptq  # GPTQ - requires build
+# autoawq  # AWQ - requires build
+# exllamav2  # EXL2 - requires build
+# onnxruntime-gpu==1.17.0  # ONNX
+
+# Advanced Features (Optional)
+# chromadb==0.4.22  # RAG support
+# redis==5.0.1  # Caching
+# sentence-transformers==2.3.1  # Embeddings for RAG
+
+# Auth & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.2.1
+
+# Additional packages
+overrides==7.7.0  # ChromaDB dependency
+

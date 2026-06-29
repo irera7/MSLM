@@ -1,0 +1,11 @@
+{
+  "name": "ExampleEngine",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "description": "Example custom inference engine",
+  "entry_point": "example_plugin.py",
+  "class_name": "ExampleEngine",
+  "supported_formats": [
+    "CUSTOM"
+  ]
+}
